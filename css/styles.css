@@ -1,6 +1,7 @@
 
 body{
     margin:0 auto;
+    font-size: 18px;
 }
 header{
     display: flex;
@@ -257,5 +258,10 @@ footer a.c{
 
 html{
     scroll-behavior: smooth;
+}
+@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
 }
 
